@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var tachacoinjs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(tachacoinjs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+tachacoinjs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = tachacoinjs

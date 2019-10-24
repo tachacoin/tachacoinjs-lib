@@ -1,6 +1,6 @@
 module.exports = {
-    qtum: {
-        messagePrefix: '\x15Qtum Signed Message:\n',
+    tachacoin: {
+        messagePrefix: '\x15Tachacoin Signed Message:\n',
         bech32: 'qc',
         bip32: {
             public: 0x0488b21e,
@@ -10,8 +10,8 @@ module.exports = {
         scriptHash: 0x32,
         wif: 0x80
     },
-    qtum_testnet: {
-        messagePrefix: '\x15Qtum Signed Message:\n',
+    tachacoin_testnet: {
+        messagePrefix: '\x15Tachacoin Signed Message:\n',
         bech32: 'tq',
         bip32: {
             public: 0x043587cf,

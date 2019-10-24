@@ -1,29 +1,29 @@
 {
-  "name": "qtumjs-lib",
+  "name": "tachacoinjs-lib",
   "version": "0.0.8",
-  "description": "An extend lib for bitcoinjs-lib, it supports two new network of qtum and qtum-testnet, and it can generate contract creating and sending transactions",
+  "description": "An extend lib for bitcoinjs-lib, it supports two new network of tachacoin and tachacoin-testnet, and it can generate contract creating and sending transactions",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qtumproject/qtumjs-lib.git"
+    "url": "git+https://github.com/tachacoin/tachacoinjs-lib.git"
   },
   "keywords": [
-    "qtum",
-    "qtumjs",
+    "tachacoin",
+    "tachacoinjs",
     "smart contract",
     "bitcoin"
   ],
-  "author": "Qtum Weiyu",
+  "author": "Tachacoin Weiyu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qtumproject/qtumjs-lib/issues"
+    "url": "https://github.com/tachacoin/tachacoinjs-lib/issues"
   },
-  "homepage": "https://github.com/qtumproject/qtumjs-lib#readme",
+  "homepage": "https://github.com/tachacoin/tachacoinjs-lib#readme",
   "devDependencies": {},
   "dependencies": {
     "bignumber.js": "^4.1.0",
     "bitcoinjs-lib": "^3.3.2",
-    "qtum-opcodes": "^1.0.0",
+    "tachacoin-opcodes": "^1.0.0",
     "safe-buffer": "^5.1.1"
   }
 }
