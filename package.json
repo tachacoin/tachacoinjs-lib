@@ -21,7 +21,7 @@
   "homepage": "https://github.com/tachacoin/tachacoinjs-lib#readme",
   "devDependencies": {},
   "dependencies": {
-    "bignumber.js": "^4.1.0",
+    "bignumber.js": "^9.0.0",
     "bitcoinjs-lib": "^3.3.2",
     "tachacoin-opcodes": "^1.0.0",
     "safe-buffer": "^5.1.1"

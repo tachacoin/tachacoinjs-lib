@@ -1,12 +1,12 @@
 module.exports = {
     tachacoin: {
         messagePrefix: '\x15Tachacoin Signed Message:\n',
-        bech32: 'qc',
+        bech32: 'tc',
         bip32: {
             public: 0x0488b21e,
             private: 0x0488ade4
         },
-        pubKeyHash: 0x3a,
+        pubKeyHash: 0x41,
         scriptHash: 0x32,
         wif: 0x80
     },
